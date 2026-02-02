@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="14dp"
+    android:orientation="vertical">
+
+    <!-- Poster -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgRelationPoster"
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/temp_poster"
+        app:shapeAppearanceOverlay="@style/RoundedImage" />
+
+    <!-- Relation Type -->
+    <TextView
+        android:id="@+id/txtRelationType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEQUEL"
+        android:textColor="#777777"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:layout_marginTop="6dp"
+        android:paddingStart="4dp" />
+
+    <!-- Anime Title -->
+    <TextView
+        android:id="@+id/txtRelationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attack on Titan Season 2"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:paddingStart="4dp"
+        android:layout_marginTop="2dp"/>
+</LinearLayout>

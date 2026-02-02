@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/status_dropdown"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dropdown_container"
+    android:padding="6dp">
+
+    <!-- ✅ Each option MUST have an ID -->
+
+    <TextView
+        android:id="@+id/optionPlanning"
+        style="@style/StatusItem"
+        android:text="PLANNING" />
+
+    <TextView
+        android:id="@+id/optionWatching"
+        style="@style/StatusItem"
+        android:text="WATCHING" />
+
+    <TextView
+        android:id="@+id/optionCompleted"
+        style="@style/StatusItem"
+        android:text="COMPLETED" />
+
+    <TextView
+        android:id="@+id/optionRewatching"
+        style="@style/StatusItem"
+        android:text="RE-WATCHING" />
+
+    <TextView
+        android:id="@+id/optionPaused"
+        style="@style/StatusItem"
+        android:text="PAUSED" />
+
+    <TextView
+        android:id="@+id/optionDropped"
+        style="@style/StatusItem"
+        android:text="DROPPED" />
+
+</LinearLayout>

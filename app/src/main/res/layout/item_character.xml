@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="115dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="12dp"
+    android:orientation="vertical">
+
+    <!-- Character Image -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgCharacter"
+        android:layout_width="115dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/temp_poster"
+        app:shapeAppearanceOverlay="@style/RoundedImage" />
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/txtCharacterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Vash the Stampede"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:paddingStart="4dp"
+        android:gravity="start" />
+
+    <!-- Role -->
+    <TextView
+        android:id="@+id/txtCharacterRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAIN"
+        android:textColor="#777777"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:paddingStart="4dp"
+        android:layout_marginTop="1dp"
+        android:gravity="start" />
+
+</LinearLayout>

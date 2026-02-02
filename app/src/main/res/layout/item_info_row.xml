@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="3dp">
+
+    <!-- LEFT LABEL -->
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Mean Score"
+        android:textColor="#777777"
+        android:textSize="14sp" />
+
+    <!-- RIGHT VALUE -->
+    <TextView
+        android:id="@+id/txtValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.5 / 10"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+</LinearLayout>

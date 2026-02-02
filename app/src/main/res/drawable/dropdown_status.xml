@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_add_to_list"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/opt_planning"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="PLANNING"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/opt_watching"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="WATCHING"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/opt_completed"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="COMPLETED"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/opt_rewatching"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="RE-WATCHING"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/opt_paused"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="PAUSED"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/opt_dropped"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="DROPPED"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

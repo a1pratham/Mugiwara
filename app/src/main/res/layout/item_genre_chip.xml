@@ -1,0 +1,12 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chipGenre"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp"
+    android:text="Action"
+    android:textStyle="bold"
+    android:textSize="13sp"
+    android:textColor="@android:color/white"
+    android:background="@drawable/bg_glass_pill"
+    android:layout_margin="6dp"/>
